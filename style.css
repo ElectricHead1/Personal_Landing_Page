@@ -179,7 +179,7 @@ input[type=text], select, textarea {
     background-color: rgba(0, 0, 0, 0.205);
     padding: 20px;
     color: #fff;
-    max-width: 70rem;
+    max-width: 80rem;
     margin: auto;
   }
 
