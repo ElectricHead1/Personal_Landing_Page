@@ -18,18 +18,18 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
         integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" />
 
-    <title>Tuazamatay Tuazama</title>
+    <title>Tuazamatay || Tuazama</title>
 </head>
 
 <div class="nav">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
+    <a href="index.html">Home</a>
+    <a href="index.html">About</a>
+    <a href="index.html">Contact</a>
 </div>
 
 <body>
     <header class="Intro">
-      <img src="images/profile.jpg" alt="" sizes="" srcset="">
+        <img class="profile-pic" src="images/profile.jpg" alt="Profile Photo">
         <h1>
             Hello, <br />
             I'm Tuazamatay
@@ -38,22 +38,54 @@
     </header>
 
     <div class="hobbies">
+        <h1>Hobbies</h1>
         <div class="hobbies-items">
             <div class="card">
                 <h2>CODING</h2>
-                <img src="images/code.svg" width="60" height="35" />
+                <img class="svg" src="images/code.svg" width="60" height="35" />
                 <p>
-                    According to
-                    <a href="https://quoracreative.com/article/mobile-marketing-statistics"
-                        target="_blank">Quoracreative</a>
-                    About 62% of web browsing in 2019 was on a Mobile Phone. Given this
-                    statistic, responsive design is of great importance when I'm
-                    building an application/Website.
+                    Coding has become like second nature for me. I enjoy my time behind the screen.
+                    I love the idea of transforming a blank page into something colorful. I've worked on many frontEnd projects. <br>
+                    My projects range from Calculator(JavaScript), To-do list(JavaScript), Portfolio websites etc.
                 </p>
             </div>
             <div class="card">
                 <h2>SOCCER</h2>
-                <img src="images/soccer.svg" width="60" height="35" />
+                <img class="svg" src="images/soccer.svg" width="60" height="35" />
+                <p>
+                    Coming from a third-world country, we use soccer as an escape from the reality around us.
+                    Even here in the US, I play soccer to escape reality. I genuinely enjoy playing soccer. <br>
+                    I've met a lot of great friends on the soccer pitch. I now have friends from the UK, France, Mexico, Venezuela, Brazil, etc.
+                </p>
+            </div>
+
+            <div class="card">
+                <h2>BIKING RIDING</h2>
+                <img class="svg" src="images/bike.svg" width="70" height="50" />
+                <p>
+                    I had 2011 Honda CBR250R . In my free time, I'd go ride with my buddy Luis and his other friends on the back roads 
+                    of Montgomery county PA. When we had our daughter, I needed to spend more time with her, so I had to sell my bike. 
+                </p>
+            </div>
+        </div>
+        <hr />
+    </div>
+
+    <div class="experience">
+        <h1>Experience</h1>
+        <div class="experience-items">
+            <div class="card">
+                <h2>Tech Support</h2>
+                <img class="svg" src="images/tech.svg" width="60" height="35" />
+                <p>
+                    I graduated with an Associate Degrees in Computer Networking and Security.
+                    After graduation, I pick up a job as Tech Support agent. I use a Linux environment to analysis and troubleshoot 
+                    Customer's issues. 
+                </p>
+            </div>
+            <div class="card">
+                <h2>Web Admin</h2>
+                <img class="svg" src="images/web.svg" width="60" height="35" />
                 <p>
                     My friend and I run a small startup company
                     <a href="https://aisafrica.com" target="_blank">aisafrica</a> in
@@ -64,8 +96,8 @@
             </div>
 
             <div class="card">
-                <h2>BIKING RIDING</h2>
-                <img src="images/bike.svg" width="70" height="50" />
+                <h2>Design</h2>
+                <img class="svg"src="images/design.svg" width="70" height="50" />
                 <p>
                     I Design and publish websites for small startups / businesses. I've
                     designed websites for dropshipping businesses and handmade
@@ -73,13 +105,10 @@
                 </p>
             </div>
         </div>
-        <hr />
     </div>
 
-    <div class="experience"></div>
-
-    <div class="form">
-        <form action="/action_page.php">
+    <div class="Contact">
+        <form action=”mailto: erikson920@gmail.com” method=”POST” enctype=”multipart/form-data” name=”EmailForm”>
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name.." />
 
@@ -94,10 +123,13 @@
     <footer>
         <p>Please get in touch via my social media</p>
         <div class="social-icon">
-        <i class="fab fa-facebook"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-linkedin"></i>
-    </div>
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p class="copyright-text"> Copyright &copy; <script>
+                document.write(new Date().getFullYear())
+            </script> Erikson Tuazama All Rights Reserved </p>
     </footer>
 </body>
 
